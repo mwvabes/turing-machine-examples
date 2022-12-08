@@ -1,0 +1,41 @@
+// Accept xy*x
+//
+// Should accept:
+// xx
+// xyx
+// xyyx
+// xyyyx
+// xyyyyyyyx 
+
+// Should not accept:
+// x
+// y
+// yy
+// xy
+// yx
+// yxy
+// xyyyyyyxy
+// xyyyyyyxyy
+// xyyyyyyxyx
+
+name: Accept xy*x
+init: Q
+accept: Z
+
+Q,x
+A,x,>
+
+A,x
+Z,x,>
+
+A,y
+B,y,>
+
+B,y
+B,y,>
+
+B,x
+C,x,>
+
+C,_
+Z,_,-

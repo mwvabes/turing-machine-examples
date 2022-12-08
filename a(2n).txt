@@ -1,0 +1,33 @@
+// Accept a(2n), n>0
+//
+// Should accept:
+// aa
+// aaaa
+// aaaaaa
+// aaaaaaaa
+// 
+// Should not accept:
+// a
+// aaa
+// aaaaa
+// aaaaaaa
+// aaaaaaaaa
+
+name: Accept a(2n), n>0
+init: Q
+accept: Z
+
+Q,a
+A,a,>
+
+A,a
+B1,a,>
+
+B1,a
+B2,a,>
+
+B2,a
+B1,a,>
+
+B1,_
+Z,_,-

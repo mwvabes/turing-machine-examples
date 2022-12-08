@@ -1,0 +1,29 @@
+// Decrement unary number
+//
+// EXAMPLE FLOW:
+// _    -> not accept
+// 1    -> not accept
+// 11   -> 1
+// 111  -> 11
+// 1111 -> 111
+//
+// Should not accept empty input!
+
+name: Decrement unary number
+init: Q
+accept: Z
+
+Q,1
+A,1,>
+
+A,1
+B,1,>
+
+B,1
+B,1,>
+
+B,_
+C,_,<
+
+C,1
+Z,_,-

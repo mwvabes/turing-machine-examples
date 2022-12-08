@@ -1,0 +1,41 @@
+// Increment quarternary number (number that consists of [0,1,2,3]
+// 
+// EXAMPLE FLOW:
+// 111 -> 112
+// 112 -> 113
+// 213 -> 220
+// 333 -> 1000
+
+name: Increment quarternary number
+init: Q
+accept: Z
+
+Q,0
+Q,0,>
+
+Q,1
+Q,1,>
+
+Q,2
+Q,2,>
+
+Q,3
+Q,3,>
+
+Q,_
+A,_,<
+
+A,0
+Z,1,-
+
+A,1
+Z,2,-
+
+A,2
+Z,3,-
+
+A,3
+A,0,<
+
+A,_
+Z,1,-

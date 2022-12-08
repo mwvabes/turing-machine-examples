@@ -1,0 +1,33 @@
+// Accept aa*b
+//
+// Should accept:
+// ab
+// aab
+// aaaaaab
+//
+// Should not accept:
+// a
+// b
+// aba
+// bba
+// abb
+// aabb
+
+name: Accept aa*b
+init: Q
+accept: Z
+
+Q,a
+A,a,>
+
+A,a
+A,a,>
+
+C,b
+B,b,>
+
+A,b
+B,b,>
+
+B,_
+Z,_,-

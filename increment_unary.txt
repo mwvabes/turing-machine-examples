@@ -1,0 +1,21 @@
+// Increment unary number
+//
+// EXAMPLE FLOW:
+// 1   -> 11
+// 11  -> 111
+// 111 -> 1111
+//
+// Should not accept empty input!
+
+name: Increment unary number
+init: Q
+accept: Z
+
+Q,1
+A,1,>
+
+A,1
+A,1,>
+
+A,_
+Z,1,>

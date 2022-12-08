@@ -1,0 +1,24 @@
+// Double increment unary number
+//
+// EXAMPLE FLOW:
+// 1   -> 111
+// 11  -> 1111
+// 111 -> 11111
+//
+// Should not accept empty input!
+
+name: Double increment unary number
+init: Q
+accept: Z
+
+Q,1
+A,1,>
+
+A,1
+A,1,>
+
+A,_
+B,1,>
+
+B,_
+Z,1,>
