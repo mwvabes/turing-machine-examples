@@ -9,6 +9,12 @@
 //
 // Should not accept empty input!
 
+// T(n) = n + 2  
+// T(n) = O(n)
+// 
+// S(n) = n + 1
+// S(n) = O(n)
+
 name: Decrement unary number
 init: Q
 accept: Z

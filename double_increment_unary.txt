@@ -7,6 +7,12 @@
 //
 // Should not accept empty input!
 
+// T(n) = n + 2
+// T(n) = O(n)
+// 
+// S(n) = n + 2
+// S(n) = O(n)
+
 name: Double increment unary number
 init: Q
 accept: Z
@@ -21,4 +27,4 @@ A,_
 B,1,>
 
 B,_
-Z,1,>
+Z,1,-

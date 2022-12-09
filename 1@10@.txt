@@ -15,6 +15,12 @@
 // 100001000
 // 111111101
 
+// T(n) = n + 1
+// T(n) = O(n)
+//
+// S(n) = n + 1 
+// S(n) = O(n)
+
 name: Accept 1*10*
 init: Q
 accept: Z

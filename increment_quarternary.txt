@@ -6,6 +6,12 @@
 // 213 -> 220
 // 333 -> 1000
 
+// T(n) = 2n + 2  
+// T(n) = O(n)
+// 
+// S(n) = n + 2
+// S(n) = O(n)
+
 name: Increment quarternary number
 init: Q
 accept: Z

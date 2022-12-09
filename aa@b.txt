@@ -13,6 +13,12 @@
 // abb
 // aabb
 
+// T(n) = n + 1  
+// T(n) = O(n)
+// 
+// S(n) = n + 1
+// S(n) = O(n)
+
 name: Accept aa*b
 init: Q
 accept: Z

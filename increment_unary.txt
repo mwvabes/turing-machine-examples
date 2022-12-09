@@ -7,6 +7,12 @@
 //
 // Should not accept empty input!
 
+// T(n) = n + 1 
+// T(n) = O(n)
+// 
+// S(n) = n + 1
+// S(n) = O(n)
+
 name: Increment unary number
 init: Q
 accept: Z
@@ -18,4 +24,4 @@ A,1
 A,1,>
 
 A,_
-Z,1,>
+Z,1,-
