@@ -18,18 +18,18 @@
 // xyyyyyyxyy
 // xyyyyyyxyx
 
-name: Accept xy*x
-init: Q
-accept: Z
+// T(n) = n + 1 
+// T(n) = O(n)
+// 
+// S(n) = n + 1
+// S(n) = O(n)
 
-Q,x
-A,x,>
+name: Accept xy*x
+init: A
+accept: T
 
 A,x
-Z,x,>
-
-A,y
-B,y,>
+B,x,>
 
 B,y
 B,y,>
@@ -38,4 +38,4 @@ B,x
 C,x,>
 
 C,_
-Z,_,-
+T,_,-
